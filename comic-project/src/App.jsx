@@ -142,25 +142,23 @@ const ImageUploadPage = () => {
 
           {/* IMAGE Container */}
           <div className="space-y-6 p-8 w-[50%] flex flex-wrap ml-20 justify-center gap-4">
-
             {/* FIRST ROW */}
-            <div className="flex gap-6">
+            {/* <div className="flex gap-6">
               <img
                 src="./img1.jpeg"
                 alt="Image 1"
                 className="w-[30%] h-[100%] object-cover rounded-lg shadow-md"
               />
-            </div>
-
+            </div> */}
 
             {/* SECOND ROW */}
-            <div className="flex gap-6">
+            {/* <div className="flex gap-6">
               <img
                 src="./img2.jpeg"
                 alt="Image 2"
                 className="w-[30%] ml-27 h-[100%] object-cover rounded-lg shadow-md"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
