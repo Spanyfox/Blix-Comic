@@ -50,7 +50,7 @@ const ImageUploadPage = () => {
           className="absolute inset-0"
           style={{
             backgroundImage:
-              'linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8) ), url("bg-img.jpeg")',
+              'linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8) ), url("./bg-img.jpeg")',
             backgroundSize: "cover",
             backgroundPosition: "center",
             opacity: 0.9,
@@ -146,7 +146,7 @@ const ImageUploadPage = () => {
             {/* FIRST ROW */}
             <div className="flex gap-6">
               <img
-                src="/img1.jpeg"
+                src="./img1.jpeg"
                 alt="Image 1"
                 className="w-[30%] h-[100%] object-cover rounded-lg shadow-md"
               />
@@ -156,7 +156,7 @@ const ImageUploadPage = () => {
             {/* SECOND ROW */}
             <div className="flex gap-6">
               <img
-                src="/img2.jpeg"
+                src="./img2.jpeg"
                 alt="Image 2"
                 className="w-[30%] ml-27 h-[100%] object-cover rounded-lg shadow-md"
               />
