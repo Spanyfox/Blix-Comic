@@ -41,7 +41,7 @@ const ImageUploadPage = () => {
     <div className="relative min-h-screen w-full">
       {/* logo */}
       <div className="absolute top-4 left-4">
-        <img src="/blix-logo.png" alt="Logo" className="h-16 w-auto" />
+        <img src="./blix-logo.png" alt="Logo" className="h-16 w-auto" />
       </div>
 
       {/* BG-Img */}
